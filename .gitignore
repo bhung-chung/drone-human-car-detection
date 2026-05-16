@@ -22,4 +22,9 @@ env/
 
 # Secrets
 .env
-kaggle.json
+kaggle.jsonoutputs/counting_results/*
+!outputs/counting_results/0000006_00159_d_0000001_count.jpg
+!outputs/counting_results/0000006_00611_d_0000002_count.jpg
+!outputs/counting_results/0000006_01111_d_0000003_count.jpg
+!outputs/counting_results/0000006_01275_d_0000004_count.jpg
+!outputs/counting_results/0000006_01659_d_0000004_count.jpg

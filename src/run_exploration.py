@@ -5,11 +5,11 @@ import cv2
 from collections import Counter
 import pandas as pd
 
-output_dir = Path("E:/drone-human-car-detection/outputs/charts")
+output_dir = Path("outputs/charts")
 output_dir.mkdir(parents=True, exist_ok=True)
 
 # Define paths based on your structure
-base_dir = Path("E:/drone-human-car-detection/data/VisDrone/VisDrone_Dataset")
+base_dir = Path("data/VisDrone/VisDrone_Dataset")
 train_images = base_dir / "VisDrone2019-DET-train" / "images"
 train_labels = base_dir / "VisDrone2019-DET-train" / "labels"
 

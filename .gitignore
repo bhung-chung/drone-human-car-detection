@@ -1,6 +1,25 @@
-filelist.txt
+# Dataset
 data/
+
+# Model weights
 models/
-outputs/
+*.pt
+*.pth
+*.onnx
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Temporary files
 filelist.txt
-data/
+
+# Environment
+venv/
+.venv/
+env/
+
+# Secrets
+.env
+kaggle.json

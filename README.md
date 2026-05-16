@@ -10,7 +10,7 @@ Main features:
 * Human counting using bounding box detections
 * Output visualization with labels and count overlay
 * YOLO11-based model training
-* Optional video tracking with ByteTrack or BoT-SORT
+* Optional video tracking with ByteTrack
 
 ---
 

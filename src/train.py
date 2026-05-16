@@ -10,7 +10,7 @@ def main():
     parser = argparse.ArgumentParser()
     # Default points to the config file we created earlier
     parser.add_argument("--data", default="configs/visdrone.yaml", help="Path to dataset YAML")
-    parser.add_argument("--model", default="models/pretrained/yolo11n.pt", help="Base model: yolo11n.pt, yolo11s.pt, etc.")
+    parser.add_argument("--model", default="yolo11n.pt", help="Base model: yolo11n.pt, yolo11s.pt, etc.")
     parser.add_argument("--epochs", type=int, default=50)
     parser.add_argument("--imgsz", type=int, default=960)
     parser.add_argument("--batch", type=parse_batch, default=-1)

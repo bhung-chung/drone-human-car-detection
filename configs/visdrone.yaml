@@ -1,4 +1,4 @@
-path: E:/drone-human-car-detection/data/VisDrone/VisDrone_Dataset
+path: data/VisDrone/VisDrone_Dataset
 
 train: VisDrone2019-DET-train/images
 val: VisDrone2019-DET-val/images

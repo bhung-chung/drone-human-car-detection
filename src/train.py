@@ -36,7 +36,7 @@ def main():
         project="models/trained",  # Where the weights and charts will be saved
         name=args.name,
         exist_ok=True,
-        plots=True             # Automatically generates evaluation charts for your README
+        plots=True             # Automatically generates evaluation charts for my README
     )
 
 if __name__ == "__main__":

@@ -44,7 +44,7 @@ Human count is calculated as the sum of `pedestrian` and `people` detections.
 
 **1. Install Dependencies**
 ```bash
-pip install ultralytics opencv-python matplotlib pandas numpy Pillow
+pip install -r requirements.txt
 ```
 
 **2. Run Inference on Images**

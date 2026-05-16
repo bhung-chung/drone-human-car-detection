@@ -299,6 +299,7 @@ Tracking outputs are saved in:
 ```text
 outputs/tracking_results/
 ```
+> Note: The generated tracking video is not included in this GitHub repository because of file size limits. It is provided separately in the submitted Google Drive folder.
 
 ---
 
@@ -361,6 +362,7 @@ Expected path after downloading or training:
 ```text
 models/trained/visdrone_yolo11_human_car/weights/best.pt
 ```
+The trained model weights and full tracking video are provided separately in the submitted Google Drive folder because of file size limits.
 
 ---
 
